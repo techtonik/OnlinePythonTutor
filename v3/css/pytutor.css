@@ -48,6 +48,7 @@ div.ExecutionVisualizer table.visualizer {
 
 div.ExecutionVisualizer table.visualizer td.vizLayoutTd {
   vertical-align: top;
+  width: 50%;
 }
 
 div.ExecutionVisualizer td#stack_td,
