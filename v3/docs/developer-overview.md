@@ -52,7 +52,6 @@ who set up OPT on his Ubuntu laptop. (btw [Hacker School](http://www.hackerschoo
 Google App Engine works only with Python 2, not Python 3. So if you want to run with Python 3 as well,
 first install the [bottle](http://bottlepy.org/) micro web framework:
 
-    easy_install pip
     pip install bottle
 
 And then run:
@@ -60,11 +59,7 @@ And then run:
     cd OnlinePythonTutor/v3/
     python bottle_server.py
 
-If all goes well, when you visit this URL, you should see the Python Tutor visualizer:
-
-    http://localhost:8080/visualize.html
-
-Note that you can run bottle with both Python 2 and 3.
+If all goes well, you should see the main Python Tutor page at http://localhost:8080/
 
 However, **only** run this app locally for testing, not in production, since security checks are disabled.
 
